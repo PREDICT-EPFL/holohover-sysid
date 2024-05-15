@@ -1,0 +1,8 @@
+jsbeautifier==1.15.1
+matplotlib==3.8.4
+mcap_ros2_support==0.5.3
+numpy==1.26.4
+pandas==2.2.2
+pysindy==1.7.5
+scipy==1.13.0
+torch==2.2.2
