@@ -1,0 +1,59 @@
+{
+    "data":
+    {
+        "experiment": "sysid_h4_yellow_2024_03_14-16_00_32",
+        "convert_mcap": true
+    },
+    "learning_params":
+    {
+        "learning_rate": 1e-4,
+        "nb_epochs": 200,
+        "batch_size": 512,
+        "testing_share": 0.1,
+        "encoder_length": 20,
+        "prediction_length": 50
+    },
+    "model":
+    {
+        "load_model": false,
+        "model_path": "models/abc/model.pt",
+
+        "thrust_poly_order": 3,
+
+        "learn_configuration_matrix": false,
+        "learn_center_of_mass": true,
+        "learn_inertia": true,
+        "learn_mass": false,
+        "learn_tau": true,
+        "learn_signal2thrust": true,
+        "learn_motor_angle_offset": true,
+        "learn_motors_vec": false,
+        "learn_motors_pos": false,
+
+        "lr_mul_configuration_matrix": 1,
+        "lr_mul_center_of_mass": 1,
+        "lr_mul_inertia": 1e-1,
+        "lr_mul_mass": 1,
+        "lr_mul_tau": 1,
+        "lr_mul_signal2thrust": 1,
+        "lr_mul_motor_angle_offset": 1,
+        "lr_mul_motors_vec": 1,
+        "lr_mul_motors_pos": 1
+    },
+    "default_model_params":
+    {
+        "motor_distance": 0.046532,
+        "motor_angle_offset": 0.0,
+        "motor_angel_delta": 0.328220,
+        "center_of_mass": [0.0, 0.0, 0.0],
+        "mass": 145.3e-3,
+        "inertia": 0.5356e-3,
+        "signal2thrust": [[0.026828422632851595, 1.050842947701885, -0.43371886420836747],
+                          [0.026828422632851595, 1.050842947701885, -0.43371886420836747],
+                          [0.026828422632851595, 1.050842947701885, -0.43371886420836747],
+                          [0.026828422632851595, 1.050842947701885, -0.43371886420836747],
+                          [0.026828422632851595, 1.050842947701885, -0.43371886420836747],
+                          [0.026828422632851595, 1.050842947701885, -0.43371886420836747]],
+        "tau": 0.03
+    }
+}
