@@ -1,9 +1,8 @@
 # Holohover - SysID
 
-[![DOI](https://img.shields.io/badge/DOI-xx.xxxx/arXiv.xxxx.xxxxx-green.svg)](
-https://doi.org/xx.xxxx/arXiv.xxxx.xxxxx) [![Preprint](https://img.shields.io/badge/Preprint-arXiv-blue.svg)](https://arxiv.org/abs/xxxx.xxxxx) [![Funding](https://img.shields.io/badge/Grant-NCCR%20Automation%20(51NF40180545)-90e3dc.svg)](https://nccr-automation.ch/)
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2405.09405-green.svg)](https://doi.org/10.48550/arXiv.2405.09405) [![Preprint](https://img.shields.io/badge/Preprint-arXiv-blue.svg)](https://arxiv.org/abs/2405.09405) [![Funding](https://img.shields.io/badge/Grant-NCCR%20Automation%20(51NF40180545)-90e3dc.svg)](https://nccr-automation.ch/)
 
-This repository provides the code accompanying the paper [On identifying the non-linear dynamics of a hovercraft using an end-to-end deep learning approach](https://arxiv.org/abs/xxxx.xxxxx).
+This repository provides the code accompanying the paper [On identifying the non-linear dynamics of a hovercraft using an end-to-end deep learning approach](https://arxiv.org/abs/2405.09405).
 
 ## Getting Started
 
@@ -37,6 +36,6 @@ To cite our work in other academic papers, please use the following BibTex entry
 author={Schwan, Roland and Schmid, Nicolaj and Chassaing, Etienne and Samaha, Karim and Jones, Colin N.},
 title={On identifying the non-linear dynamics of a hovercraft using an end-to-end deep learning approach}, 
 year={2024},
-eprint = {arXiv:xxxx.xxxxx},
+eprint = {arXiv:2405.09405},
 }
 ```
